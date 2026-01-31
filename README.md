@@ -48,6 +48,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import maxsorted from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-strided-maxsorted@deno/mod.js';
+```
+The previous example will load the latest bundled code from the deno branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/stats-strided-maxsorted/tags). For example,
+
+```javascript
 import maxsorted from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-strided-maxsorted@v0.1.0-deno/mod.js';
 ```
 
@@ -146,7 +151,7 @@ var v = maxsorted.ndarray( 4, x, 2, 1 );
 
 ```javascript
 import linspace from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-linspace@deno/mod.js';
-import maxsorted from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-strided-maxsorted@v0.1.0-deno/mod.js';
+import maxsorted from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-strided-maxsorted@deno/mod.js';
 
 var x = linspace( -50.0, 50.0, 10 );
 console.log( x );
