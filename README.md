@@ -48,7 +48,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import maxsorted from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-strided-maxsorted@esm/index.mjs';
+import maxsorted from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-strided-maxsorted@v0.1.0-esm/index.mjs';
 ```
 
 #### maxsorted( N, x, strideX )
@@ -151,7 +151,7 @@ var v = maxsorted.ndarray( 4, x, 2, 1 );
 <script type="module">
 
 import linspace from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-linspace@esm/index.mjs';
-import maxsorted from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-strided-maxsorted@esm/index.mjs';
+import maxsorted from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-strided-maxsorted@v0.1.0-esm/index.mjs';
 
 var x = linspace( -50.0, 50.0, 10 );
 console.log( x );
