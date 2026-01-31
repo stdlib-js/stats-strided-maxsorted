@@ -48,6 +48,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import maxsorted from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-strided-maxsorted@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/stats-strided-maxsorted/tags). For example,
+
+```javascript
 import maxsorted from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-strided-maxsorted@v0.1.0-esm/index.mjs';
 ```
 
@@ -151,7 +156,7 @@ var v = maxsorted.ndarray( 4, x, 2, 1 );
 <script type="module">
 
 import linspace from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-linspace@esm/index.mjs';
-import maxsorted from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-strided-maxsorted@v0.1.0-esm/index.mjs';
+import maxsorted from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-strided-maxsorted@esm/index.mjs';
 
 var x = linspace( -50.0, 50.0, 10 );
 console.log( x );
