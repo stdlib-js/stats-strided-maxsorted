@@ -46,7 +46,7 @@
   },
   "devDependencies": {
     "@stdlib/array-base-linspace": "^0.2.3",
-    "@stdlib/array-base-to-accessor-array": "^0.2.2",
+    "@stdlib/array-base-to-accessor-array": "^0.2.3",
     "@stdlib/array-float64": "^0.2.3",
     "@stdlib/math-base-special-pow": "^0.3.1",
     "tape": "git+https://github.com/kgryte/tape.git#fix/globby",
